@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://scontent.flim9-1.fna.fbcdn.net/v/t39.30808-6/241656237_380556260343756_7133205472929463369_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEPdbjGG5dDm7RdvhTw9hj5VvUUgpu6noJW9RSCm7qegicAthU3cmSSLcg1mogLxB5bVjmvAmOQWlpThCZGcRvS&_nc_ohc=YaNLNKNSYaUAX_Hnvma&_nc_ht=scontent.flim9-1.fna&oh=00_AfBQ9JwTwNRH7sqaHc3UMj1FqYu270SjZlSz4t5JDB0JTQ&oe=648CA516");
+  background-size: cover;
+  backdrop-filter:  brightness(50%);
+}
+
+canvas {
+  display: block;
+}
+
+#canvas_container {
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.9em;
+  background: #000000;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #000000;
+}
